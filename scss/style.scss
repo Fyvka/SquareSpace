@@ -409,7 +409,7 @@ img {
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 .mainpage {
-   background-image: url("/img/1.png");
+   background-image: url("img/1.png");
    background-position: center;
    width: 100%;
    max-width: 1440px;
@@ -872,7 +872,7 @@ img {
 
    .mainpage {
       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-         url("/img/1.png");
+         url("img/1.png");
 
       background-position: center;
       width: 100%;
