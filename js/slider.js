@@ -14,7 +14,7 @@ function init() {
    });
 
    console.log(count);
-   sliderLine.style = 'transform: translate(-' + count * width * 1.065 + 'px);';
+   sliderLine.style = 'transform: translate(-' + count * width * 1.06 + 'px);';
 }
 
 window.addEventListener('resize', init);
@@ -26,7 +26,7 @@ document.querySelector('.slider-next').addEventListener("click", function () {
       count = 0;
    }
    console.log(count);
-   sliderLine.style = 'transform: translate(-' + count * width * 1.065 + 'px);';
+   sliderLine.style = 'transform: translate(-' + count * width * 1.06 + 'px);';
 });
 
 document.querySelector('.slider-prev').addEventListener("click", function () {
@@ -35,6 +35,6 @@ document.querySelector('.slider-prev').addEventListener("click", function () {
       count = 5;
    }
    console.log(count);
-   sliderLine.style = 'transform: translate(-' + count * width * 1.065 + 'px);';
+   sliderLine.style = 'transform: translate(-' + count * width * 1.06 + 'px);';
 });
 
